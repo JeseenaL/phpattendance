@@ -1,0 +1,167 @@
+/*
+	Theme name:Orisys
+	Version:1.0
+	Author:Vishnu
+*/
+*{	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.a
+{
+	background-image:url("img/5.jpg");
+	background-size:cover;
+}
+.menubar
+{	text-align:center;
+	background-color:black;
+	
+}
+.menubar ul
+{
+	list-style-type:none;
+	display:inline-flex;
+	
+	
+}
+.menubar ul li
+{
+	width:120px;
+	padding:15px;
+	margin:15px;
+	
+}
+.menubar li a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.menubar li:hover,.active
+{
+	background-color:orange;
+	border-radius:10px;
+}
+.submenu
+{
+	display:none;
+	z-index:1;
+}
+.menubar ul li:hover .submenu
+{
+	display:block;
+	position:absolute;
+	margin-top:15px;
+	margin-left:-15px;
+	background:powderblue;
+
+}
+.menubar ul li:hover .submenu ul
+{
+	display:block;
+	margin:10px;
+}	
+.menubar ul li:hover .submenu li
+{
+border-left:2px solid blue;
+padding:10px;
+width:100px;
+}
+
+.row
+{
+display:flex;
+margin-right:15px;
+margin-left:15px;
+text-align:justify	
+}
+.col
+{
+	padding:30px;
+	margin:20px;
+	background-color:rgba(53, 69, 115, 0.35);
+	height:350px;
+	width:450px;
+}
+.row h2
+{
+	color:white;
+	text-align:center;
+	text-decoration:underline;
+	padding:30px;
+}
+.col p
+{
+	color:white;
+}
+.ft
+{
+color:white;
+background-color:black;
+width:100%;
+text-align:center;
+padding:100px;
+margin-top:20px;	
+}	
+.gal
+{
+	text-align:center;
+}
+.gal img 
+{
+	width:300px;
+	height:150px;
+	margin:30px;
+	box-shadow:10px 10px 5px 10px gray;
+	filter:grayscale(100%);
+	transition:.5s;
+}
+.gal img:hover
+{
+	filter:grayscale(0);
+	transform:scale(1.2);
+}
+.cont
+{
+	position:relative;
+	width:450px;
+	height:500px;
+	left:400px;
+	border:1px solid red;
+	text-align:center;
+	padding:40px;
+	margin:10px;
+	background-color:rgba(53, 69, 115, 0.8);
+}
+.frm
+{
+	width:300px;
+	margin:15px;
+	padding:15px;
+	background-color:rgba(53, 69, 115, 0.8);
+	color:white;
+	outline:none;
+	border:1px solid #5b80a4;
+	transition:.5s;
+}
+.frm:focus
+{
+	box-shadow:0px 0px 20px 6px #5b80a4 ;
+}
+textarea.frm
+{
+	height:100px;
+}
+.frm-btn
+{
+	float:right;
+	padding:15px 50px;
+	background:rgba(0,0,0,0.2);
+	color:white;
+	outline:none;
+	border-radius:30px;
+}
+.cont h2
+{
+	color:white;
+}
